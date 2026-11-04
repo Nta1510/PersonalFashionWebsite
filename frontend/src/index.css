@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+}
+
+::selection {
+  @apply bg-coral text-white;
+}
+
+/* Masonry feed grid */
+.feed-grid {
+  column-count: 1;
+  column-gap: 1rem;
+}
+@media (min-width: 640px) {
+  .feed-grid { column-count: 2; }
+}
+@media (min-width: 1024px) {
+  .feed-grid { column-count: 3; }
+}
+.feed-grid > * {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-3 font-semibold text-paper transition hover:bg-coral hover:text-white active:scale-95;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-ink px-6 py-3 font-semibold text-ink transition hover:border-coral hover:text-coral active:scale-95;
+}
+
+.input-field {
+  @apply w-full rounded-xl border border-ink/15 bg-white px-4 py-3 text-ink placeholder:text-ink/40 focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20;
+}
+
+.admin-shell {
+  @apply min-h-screen bg-[#120E16] text-paper;
+}
+
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
