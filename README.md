@@ -33,10 +33,11 @@ Admin quản lý toàn bộ nội dung trên tại khu vực `/admin` (yêu cầ
 
 Trong **Workers & Pages → Worker → Settings → Builds**, đặt:
 
-- **Build command:** để trống
-- **Deploy command:** `npm run deploy`
+- **Build command:** `npm run build`
+- **Deploy command:** `npx wrangler deploy`
 
-Lệnh deploy sẽ cài dependencies frontend, tạo `frontend/dist`, rồi gọi Wrangler để upload.
+Lệnh build cài dependencies frontend và tạo `frontend/dist`; lệnh deploy kế tiếp upload Worker cùng assets.
+SPA fallback do `src/worker.js` xử lý; không thêm catch-all `/* /index.html 200` vào `_redirects` vì Cloudflare sẽ từ chối rule tạo vòng lặp.
 
 ## Gợi ý mở rộng sau này
 
