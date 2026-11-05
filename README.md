@@ -33,10 +33,10 @@ Admin quản lý toàn bộ nội dung trên tại khu vực `/admin` (yêu cầ
 
 Trong **Workers & Pages → Worker → Settings → Builds**, đặt:
 
-- **Build command:** `npm run build`
-- **Deploy command:** `npx wrangler deploy`
+- **Build command:** để trống
+- **Deploy command:** `npm run deploy`
 
-Build command sẽ cài dependencies của frontend và tạo `frontend/dist`, thư mục mà Wrangler upload theo `wrangler.toml`.
+Lệnh deploy sẽ cài dependencies frontend, tạo `frontend/dist`, rồi gọi Wrangler để upload.
 
 ## Gợi ý mở rộng sau này
 
