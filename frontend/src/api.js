@@ -9,10 +9,13 @@
 // - Các thao tác đọc công khai (danh mục, feed, sản phẩm, bài viết) dùng GET.
 // - Các thao tác ghi (thêm/sửa/xoá, đăng nhập) dùng POST kèm token trong body.
 
-const BASE_URL = import.meta.env.VITE_API_URL;
+// URL Web App Google Apps Script (được cứng trong code, không dùng biến env).
+// Khi thay đổi link này và push lên git, Cloudflare sẽ tự build và deploy cập nhật.
+// Lưu ý: URL này sẽ hiển thị trong source code đã build, nên không nên đặt thông tin nhạy cảm ở đây.
+const BASE_URL = 'https://script.google.com/macros/s/AKfycbxaNgCjqNmp7oaELp8D6cyqpkt41L733J17gfJfv0kd2ryfjrHzY41lzJBeFHhEKyt9/exec';
 
 if (!BASE_URL) {
-  throw new Error('VITE_API_URL environment variable is not configured. Please set it in your .env file or deployment environment variables.');
+  throw new Error('BASE_URL không được để trống trong src/api.js');
 }
 
 function getToken() {
