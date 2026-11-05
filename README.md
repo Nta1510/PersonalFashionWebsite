@@ -29,6 +29,15 @@ Admin quản lý toàn bộ nội dung trên tại khu vực `/admin` (yêu cầ
 | Lưu trữ media | Google Drive |
 | Hosting frontend gợi ý | Vercel / Netlify / Cloudflare Pages (miễn phí) |
 
+## Deploy lên Cloudflare Workers
+
+Trong **Workers & Pages → Worker → Settings → Builds**, đặt:
+
+- **Build command:** `npm run build`
+- **Deploy command:** `npx wrangler deploy`
+
+Build command sẽ cài dependencies của frontend và tạo `frontend/dist`, thư mục mà Wrangler upload theo `wrangler.toml`.
+
 ## Gợi ý mở rộng sau này
 
 - Thêm phân trang / tải thêm (load more) khi Feed và Sản phẩm nhiều dữ liệu.
