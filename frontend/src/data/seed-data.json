@@ -1,0 +1,179 @@
+{
+  "description": "Dữ liệu mẫu chuẩn cho website STYLISTE. Dùng làm tham khảo khi thêm dữ liệu qua trang quản trị (Admin panel) hoặc nhập trực tiếp vào Google Sheet. Tất cả ảnh dùng từ Unsplash (miễn phí, không cần bản quyền).",
+  "categories": [
+    {
+      "id": "cat-ao",
+      "name": "Áo",
+      "createdAt": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": "cat-quan",
+      "name": "Quần",
+      "createdAt": "2026-01-11T00:00:00Z"
+    },
+    {
+      "id": "cat-giay",
+      "name": "Giày",
+      "createdAt": "2026-01-12T00:00:00Z"
+    },
+    {
+      "id": "cat-dep",
+      "name": "Dép",
+      "createdAt": "2026-01-13T00:00:00Z"
+    },
+    {
+      "id": "cat-phukien",
+      "name": "Phụ kiện",
+      "createdAt": "2026-01-14T00:00:00Z"
+    }
+  ],
+  "feed": [
+    {
+      "id": "feed-001",
+      "type": "image",
+      "mediaUrl": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80",
+      "caption": "Áo blazer oversize màu beje — basic nhưng xa xỉ.",
+      "description": "Lớp lớp ton sur ton với quần jeans thô là lựa chọn hoàn hảo cho ngày đầu xuân.",
+      "tags": "blazer,beje,oversize,basic,xuân",
+      "createdAt": "2026-05-10T08:30:00Z"
+    },
+    {
+      "id": "feed-002",
+      "type": "image",
+      "mediaUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "caption": "Váy midi họa tiết hoa — nhẹ nhàng, nữ tính.",
+      "description": "Váy midi cascading ruffles đi kèm giày dép đơn giản là sự kết hợp tối giản nhưng ấn tượng.",
+      "tags": "vada,hoa,midi,nữ tính,xuân hạ",
+      "createdAt": "2026-05-09T14:20:00Z"
+    },
+    {
+      "id": "feed-003",
+      "type": "video",
+      "mediaUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80",
+      "caption": "Outfit jeans trắng + áo len cổ tròn — gợi hông gợi feelings.",
+      "description": "Mix và match áo len trơn với jeans trắng và giày thể thao để tạo vẻ ngoài trẻ trung, năng động.",
+      "tags": "jeans trắng,áo len,gợi hông,thể thao",
+      "createdAt": "2026-05-08T10:15:00Z"
+    },
+    {
+      "id": "feed-004",
+      "type": "image",
+      "mediaUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&q=80",
+      "caption": "Bộ đồ thể thao pastel — năng động cả trong và ngoài phòng tập.",
+      "description": "Áo crop top màu pastel phối legging cao cot là combo tối ưu cho buổi yoga sáng sớm.",
+      "tags": "thể thao,pastel,crop top,legging,yoga",
+      "createdAt": "2026-05-07T16:45:00Z"
+    },
+    {
+      "id": "feed-005",
+      "type": "image",
+      "mediaUrl": "https://images.unsplash.com/photo-1496747612170-6615c7646b6f?w=800&q=80",
+      "caption": "Áo sơ mi trắng đeo một bờ vai — duyên dáng tận cùng.",
+      "description": "Sơ mi trắng cắt một bên vai kết hợp với váy ren hoặc đầm midi tạo vẻ ngoài sang chảnh, lịch sự.",
+      "tags": "sơ mi trắng,đeo một bờ vai,sang chảnh,lịch sự",
+      "createdAt": "2026-05-06T11:00:00Z"
+    },
+    {
+      "id": "feed-006",
+      "type": "video",
+      "mediaUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
+      "caption": "Áo khoác da + đầm ren — sự đối lập giữa mạnh mẽ và uyển chuyển.",
+      "description": "Áo khoác da oversize mặc trên đầm ren nhẹ nhàng tạo sự cân bằng giữa phong cách street và feminine.",
+      "tags": "khoác da,đầm ren,feminine,street style",
+      "createdAt": "2026-05-05T09:30:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "categoryId": "cat-ao",
+      "name": "Áo blazer oversize beje",
+      "description": "Áo blazer cadesh oversize, vải len mỏng, form suông thoải mái. Phù hợp cho môi trường làm việc hoặc đi café cuối tuần.",
+      "price": "850000",
+      "images": "https://images.unsplash.com/photo-1594634324689-22286c9390f2?w=800&q=80,https://images.unsplash.com/photo-1581043510837-7567660a27e1?w=800&q=80",
+      "shopeeLink": "https://shopee.vn/product/123456789",
+      "createdAt": "2026-04-20T00:00:00Z"
+    },
+    {
+      "id": "prod-002",
+      "categoryId": "cat-quan",
+      "name": "Quần jeans thô xanh vừaền",
+      "description": "Quần jeans cotton 100%, họa tiết thô vừaền, độ dãn vừa phải. Có túi sau thoáng và khuy metallik.",
+      "price": "620000",
+      "images": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=800&q=80",
+      "shopeeLink": "https://shopee.vn/product/123456790",
+      "createdAt": "2026-04-21T00:00:00Z"
+    },
+    {
+      "id": "prod-003",
+      "categoryId": "cat-giay",
+      "name": "Giày thể thao trắng da trẻo",
+      "description": "Giày thể thao trắng da trẻo, đế cao su suôn, dễ phối với mọi trang phục. Kiểu dáng thời thượng, không bao giờ lỗi mốt.",
+      "price": "750000",
+      "images": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "shopeeLink": "https://shopee.vn/product/123456791",
+      "createdAt": "2026-04-22T00:00:00Z"
+    },
+    {
+      "id": "prod-004",
+      "categoryId": "cat-dep",
+      "name": "Dép vuông da nguyên chất",
+      "description": "Dép vuông da nguyên chất, mềm mịn, êm ái khi đi bộ. Có dây chun chỉnh độ rộng phù hợp với mọi loại bàn chân.",
+      "price": "380000",
+      "images": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
+      "shopeeLink": "https://shopee.vn/product/123456792",
+      "createdAt": "2026-04-23T00:00:00Z"
+    },
+    {
+      "id": "prod-005",
+      "categoryId": "cat-phukien",
+      "name": "Túi xách da vai chéo nhỏ",
+      "description": "Túi xách da vai chéo nhỏ gọn, có ngăn chia rõ ràng. Dây đeo canh chỉnh được. Phù hợp cho những ngày đi dạo thành phố.",
+      "price": "450000",
+      "images": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80",
+      "shopeeLink": "https://shopee.vn/product/123456793",
+      "createdAt": "2026-04-24T00:00:00Z"
+    },
+    {
+      "id": "prod-006",
+      "categoryId": "cat-ao",
+      "name": "Áo len cổ tròn pastel",
+      "description": "Áo len cổ tròn d Angehörung pastel, vải len muli mềm, không gây ngứa. Có nhiều màu: hồng sen, xanh mint, vàng kem.",
+      "price": "540000",
+      "images": "https://images.unsplash.com/photo-1520975673570-71f9b04a3e58?w=800&q=80",
+      "shopeeLink": "https://shopee.vn/product/123456794",
+      "createdAt": "2026-04-25T00:00:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-001",
+      "title": "Cách chọn áo blazer cho dáng người thấp",
+      "excerpt": "Blazer không chỉ dành cho người cao. Hãy tìm hiểu cách chọn form áo và cách phối đồ để tạo chiều cao và cân đối cơ thể.",
+      "content": "## Blazer cho dáng người thấp — bí kíp không bao giờ lỗi thời\n\nNhiều người nghĩ blazer chỉ hợp với người cao, nhưng thực tế đây là món đồ básic mà bất kỳ ai cũng có thể sở hữu. Chìa khóa nằm ở **form cắt** và **cách phối đồ**.\n\n### 1. Chọn form áo ngắn gọn\n\nTránh blazer quá dài quá hông. Hãy chọn áo blazer cắt ngang hoặc ngắn hơn hông 1-2 vuốt để tạo cảm giác chân dài hơn.\n\n### 2. Màu sắc đơn sắc\n\nMàu trơn như beje, đen, navy hoặc trắng giúp tạo đường ngang sạch sẽ, không chia cắt thân thể.\n\n### 3. phối với quần forma cao eo\n\nQuần jeans cao eo hoặc quần tây cao eo là bạn đồng hành tuyệt vời cho blazer, giúp thu thắt eo và kéo dài đường chân.\n\n### 4. Giày vần màu cùng톤\n\nGiày màu cùng tông với quần hoặc áo sẽ tạo đường nối mượt mà, khiến vẻ ngoài thon dài hơn.\n\nHãy thử áp dụng và cảm nhận sự khác biệt nhé!",
+      "coverImage": "https://images.unsplash.com/photo-1594634324689-22286c9390f2?w=800&q=80",
+      "createdAt": "2026-04-15T00:00:00Z"
+    },
+    {
+      "id": "post-002",
+      "title": "5 món đồ cơ bản mỗi cô gái nên có trong tủ",
+      "excerpt": "Từ áo sơ mi trắng đến jeans thô — khám phá những món đồ cốt lõi giúp bạn sắp xếp outfit hàng ngày dễ dàng hơn.",
+      "content": "# 5 món đồ cơ bản mỗi cô gái nên có\n\nXây dựng tủ quần áo tối giản nhưng đầy đủ không cần quá nhiều món đồ. Chỉ cần 5 món sau đây, bạn có thể mix hàng tuần mà không bao giờ cảm thấy thiếu.\n\n## 1. Áo sơ mi trắng\n\nMón đồ đa năng nhất — mặc đi làm, đi dạo, đi dự tiệc đều được. Hãy chọn vải cotton thoáng mát, form vừa vặn.\n\n## 2. Quần jeans thô xanh\n\nJeans thô xanh vừaền là món 'cứu sinh' khi bạn không biết mặc gì. Phối với áo len, áo thun, sơ mi đều đẹp.\n\n## 3. Áo len cổ tròn\n\nDùng cho mùa lạnh, màu pastel hoặc trơn sono giúp tạo vẻ ngoài nhẹ nhàng, nữ tính.\n\n## 4. Giày thể thao trắng\n\nKhông chỉ cho thể thao, giày trắng còn là món đi kèm lý tưởng với váy ren, đầm midi, thậm chí cả đầm dài.\n\n## 5. Túi xách da trung tính\n\nMàu nâu hoặc đen, hình vuông hoặc hình tròn nhỏ — túi này đi kèm bạn từ sáng đến tối.\n\nHãy đầu tư vào chất lượng cho những món này, chúng sẽ đi cùng bạn trong nhiều năm tới.",
+      "coverImage": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "createdAt": "2026-04-10T00:00:00Z"
+    },
+    {
+      "id": "post-003",
+      "title": "Mùa xuân 2026: xu hướng màu pastel lên ngôi",
+      "excerpt": "Hồng sen, xanh mint, vàng kem — tones pastel thống trị runway và street style mùa này. Cách bạn có thể áp dụng vào cuộc sống thực.",
+      "content": "# Xuân 2026 — Xu hướng màu pastel lên ngôi\n\nMùa xuân này, các tono pastel như hồng sen, xanh mint, vàng kem và lavender thống trị các tuần lễ thời trang lớn từ Paris đến Seoul.\n\n## Tại sao pastel lại Hot?\n\nMàu pastel mang lại cảm giác tươi mới, nhẹ nhàng và dễ phối với mọi màu sắc khác. Đây là sự contrast hoàn hảo với những tone tối của mùa đông vừa qua.\n\n## Cách áp dụng vào outfit hàng ngày\n\n### Mix pastel với trắng\n\nĐây là cách an toàn nhất — áo len hồng sen + quần trắng, hoặc áo thun xanh mint + đầm trắng.\n\n### Monochrome pastel\n\nĐể toàn bộ outfit trong cùng một tono pastel tạo vẻ ngoài tinh tế, sang chảnh.\n\n### Trang trí bằng phụ kiện\n\nNếu bạn chưa dám mặc toàn bộ pastel, hãy bắt đầu từ túi xách, khăn quàng hoặc giày dép trong tông pastel.\n\nHãy bắt đầu từ những món đồ nhỏ và dần dần mở rộng tủ quần áo pastel của bạn nhé!",
+      "coverImage": "https://images.unsplash.com/photo-1496747612170-6615c7646b6f?w=800&q=80",
+      "createdAt": "2026-04-05T00:00:00Z"
+    }
+  ],
+  "instructions": {
+    "viaAdminPanel": "Đăng nhập vào /admin/login (mặc định: admin / ThayDoiMatKhauNay123), sau đó vào từng mục quản trị (Danh mục, Feed ảnh & video, Sản phẩm, Bài viết) và nhấn nút thêm để nhập dữ liệu mẫu ở trên.",
+    "viaGoogleSheet": "Mở Google Sheet liên kết với backend Apps Script, thêm từng hàng vào các sheet: Categories, Feed, Products, Posts theo thứ tự cột đã định nghĩa trong Code.gs.",
+    "note": "Dữ liệu này chỉ làm tham khảo. Bạn có thể chỉnh sửa, thêm bớt hoặc xóa toàn bộ sau khi nhập."
+  }
+}
