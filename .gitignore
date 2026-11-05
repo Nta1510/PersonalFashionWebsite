@@ -17,3 +17,6 @@ backend/.vscode/
 
 # Logs
 *.log
+
+# Wrangler (Cloudflare Worker deploy)
+.wrangler/

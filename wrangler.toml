@@ -1,0 +1,6 @@
+name = "personalfashionwebsite"
+compatibility_date = "2026-11-05"
+main = "src/worker.js"
+
+[site]
+bucket = "./frontend/dist"
